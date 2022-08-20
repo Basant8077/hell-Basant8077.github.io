@@ -1,0 +1,133 @@
+@media screen and (Max-width:900px) {
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+    header{
+        height: 11vh;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .contentbar{
+        width: 51vh;
+    }
+    header::before {
+        height: 74vh;
+    }
+    ul li a {
+        text-decoration: none;
+        padding: 30px;
+        margin: 0px -3px;
+        font-size: 16px;
+        font-weight: bolder;
+        color: black;
+    }
+
+    #home{
+        text-align: center;
+        font-size: 10px;
+        overflow: hidden;
+        font-family: 'Raleway', sans-serif;
+        top: 10vh;
+        height: 55vh;
+    }
+
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #home p {
+        font-size: 17px;
+
+    }
+
+    #servises-container {
+        top: 10vh;
+    }
+
+    #servises-container h1 {
+        width: 62vw;
+        font-size: 28px;
+    }
+
+    .box {
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .services {
+        width: 70vw;
+        height: 45vh;
+        overflow: hidden;
+        margin: 21px auto;
+
+    }
+
+    .services img {
+        height: 24vh;
+        width: 67vw;
+    }
+
+    /* .servises-heading{
+        font-size: 35px;
+    } */
+    .services p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /** partners */
+    .partnersimg {
+        flex-direction: column;
+        height: 62vh;
+    }
+
+    .partners img {
+        height: 8vh;
+        width: 17vh;
+    }
+
+    /** order now */
+    .form{
+        margin: 34px;
+    }
+    #contact{
+        height: 68vh;
+    }
+    .Resonsive-head{
+        font-size: 2.1rem;
+    }
+    .contact-head-font{
+        font-size: 29px;
+    }
+    input{
+        margin: 22px;
+    }
+    input:focus {
+        width: 80vw;
+    }
+
+
+
+
+
+
+
+    /** utills css */
+    .centre {
+        text-align: center;
+    }
+
+    .primary-head {
+        font-size: 10px;
+    }
+
+    .secondory-head {
+        font-size: 35px;
+    }
+
+    .font {
+        font-family: 'Albert Sans', sans-serif;
+    }
+
+}

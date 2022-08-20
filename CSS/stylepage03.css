@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(245, 240, 240);
+    ;
+}
+
+header {
+    height: 7vh;
+
+    background-color: #ff4646;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon img {
+    height: 32px;
+    margin: 10px 262px;
+}
+.searchbar{
+    display: flex;
+
+}
+.search-icon{
+    width: 20px;
+    
+}
+.searchbar input {
+    width: 28vw;
+    height: 5vh;
+    border-radius: 5px;
+    color: #4a4a4a;
+    margin: 6px auto;
+    text-align: center;
+    line-height: 0.5;
+    font-size: 17px;
+}
+
+/*! image slider css */
+
+#image_slider {
+
+    animation: slider-anime 4s ease 1s infinite alternate;
+    width: 80vw;
+    height: 70vh;
+    margin: 101px auto;
+    border-radius: 17px;
+    background-image: url("https://media.istockphoto.com/photos/tahu-bakso-or-traditional-tofu-with-meat-inside-from-indonesia-with-a-picture-id1372508991?b=1&k=20&m=1372508991&s=170667a&w=0&h=ukZDh37MLXCAf0T2ZZEAoRWJlMfrzgRUwNxJNFbDKyc=");
+    background-size: cover;
+    box-shadow: inset -16px -113px 126px 23px black;
+}
+
+
+@keyframes slider-anime {
+    0% {
+        background: url("https://media.istockphoto.com/photos/teri-crispy-a-traditional-indonesian-snack-made-from-small-fish-teri-picture-id1377015299?b=1&k=20&m=1377015299&s=170667a&w=0&h=TKMX0RuPVWaPoaUcDFmnvJfaRpMY4KfZD_rSE-swRxg=") no-repeat fixed;
+        background-size: cover;
+    }
+
+    35% {
+        background: url("https://cdn.pixabay.com/photo/2021/07/29/12/43/curry-6507120__340.jpg")no-repeat fixed;
+        background-size: cover;
+
+    }
+
+    75% {
+        background: url("https://media.istockphoto.com/photos/smoked-and-spicy-tandoori-chicken-grilling-with-smoke-picture-id995903748?b=1&k=20&m=995903748&s=170667a&w=0&h=yy35VzA2JgIly_MZMmPUKbgJH8sbn7N94SuMj7B11NY=")no-repeat fixed;
+        background-size: cover;
+
+    }
+}
+
+.slider h1 {
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 3.3rem;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 118vh;
+    margin: 0px 37px;
+    color: white;
+}
+
+
+
+.peragraph {
+    font-family: 'Albert Sans', sans-serif;
+    margin: 1px 0px 14px 12px;
+    font-size: 1.2rem;
+}
+
+/* !services card css */
+
+#servises-container {
+    font-family: 'Albert Sans', sans-serif;
+    position: relative;
+    top: 20vh;
+    margin-top: -88px;
+
+}
+
+.services-section {
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.box {
+    display: flex;
+    margin: 106px 151px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 51vh;
+    width: 161vh;
+    border-radius: 14px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.services img {
+    height: 26vh;
+    width: 19vw;
+    margin: 7px auto;
+} 
+
+.services {
+    width: 23vw;
+    height: 39vh;
+    cursor: pointer;
+    transform: scale(1);
+    background-color: white;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 40px;
+}
+
+.services:hover{
+    transform: scale(1.05);
+    box-shadow: 2px #000000;
+
+
+}
+
+.adjust {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    text-decoration: dotted;
+}
+
+
+.services h2 {
+    font-size: 27px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.services h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin: 8px 0px 0px 28px;
+}
+
+/*! footer stylng */
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+footer {
+    margin: 176px 0 0 0;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Albert Sans', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgb(40, 36, 36);
+}

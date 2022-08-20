@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth ;
+}
+
+/** header css */
+
+header {
+    height: 7vh;
+    width: 100vw;
+    background: black;
+    opacity: 0.9;
+
+}
+
+header::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_7Q58WswlEjn8XIxmgHi_2G9V_XSmFEsS5A&usqp=CAU") no-repeat fixed;
+    background-color: black;
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+    opacity: 0.9;
+    z-index: -1;
+
+}
+
+.navigation {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'Albert Sans', sans-serif;
+
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 30px;
+    margin: 0 10px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    /* transform: scale(1);
+    transition: transform 1s ease 0.5s; */
+
+
+}
+
+ul li a:hover {
+    /* transform: scale(1.5); */
+    text-decoration: overline;
+}
+
+
+
+/*! welcome section css */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 34vh;
+    width: 100vw;
+    top: 11vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+h1 {
+    font-size: 4.2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#home p {
+    font-size: 1.7rem;
+    padding: 34px;
+    font-family: 'Albert Sans', sans-serif;
+
+}
+
+.btn {
+    font-weight: bolder;
+    margin: 50px 0 0 0;
+    font-size: 1.3rem;
+    font-style: italic;
+    cursor: pointer;
+    border: 3px dotted black;
+
+}
+
+/* !services card css */
+
+#servises-container {
+    font-family: 'Albert Sans', sans-serif;
+    position: relative;
+    top: 20vh;
+
+}
+
+#servises-container h1 {
+    border-bottom: 1px solid black;
+    width: 36vw;
+    margin: 1px auto;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services img {
+    height: 25vh;
+    width: 18vw;
+    margin: 2px auto;
+}
+
+img {
+    display: block;
+    height: 30px;
+    width: 37px;
+    margin: -9px;
+    padding: 10px;
+
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 27vw;
+    height: 50vh;
+    border: 1px solid #eeb6b6;
+    background-color: #f9f5ee;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.services:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 10px 7px #765252;
+
+}
+
+.adjust {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    text-decoration: dotted;
+}
+
+.services p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+
+}
+
+.services h2 {
+    font-size: 2.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+
+}
+
+/*! partners css */
+.partners {
+    background-color: rgb(40, 36, 36);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.partnersimg {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(40, 36, 36);
+    height: 30vh;
+}
+
+.partners img {
+    height: 12vh;
+    width: 20vh;
+
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 36%;
+    background: black url("https://img.freepik.com/premium-photo/contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.jpg?w=2000") no-repeat fixed;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.form {
+    margin: 5px;
+    /*! itcan adjust height  of order now;  */
+}
+
+.contact-head-font {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-style: oblique;
+
+}
+
+.order-style {
+    border: 2px solid rgb(248, 224, 224);
+    cursor: pointer;
+    border-radius: 10px;
+    color: #e3d6cc;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+
+}
+
+.order-style:hover {
+    transform: scale(1.2);
+    box-shadow: inset -2px -2px 10px 3px rgb(253, 228, 191);
+}
+
+input {
+    margin: 6px;
+    height: 4vh;
+    width: 20vh;
+    color: white;
+    line-height: 2px;
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+    transition: width 1s ease 0.5s;
+    background: #2821;
+}
+
+input:focus {
+    width: 70vh;
+    background: white;
+    color: black;
+}
+
+select {
+    width: 50vh;
+    height: 4vh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+
+}
+.arrow-style{
+    text-decoration: none;
+
+}
+
+footer {
+    margin: 156px 0 0 0;
+    height: 15vh;
+    display: flex;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Albert Sans', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgb(40, 36, 36);
+    
+}

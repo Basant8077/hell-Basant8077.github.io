@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?size=626&ext=jpg") no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.menu {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-heading {
+    color: white;
+    font-style: italic;
+    border: 2px solid wheat;
+    width: 20vw;
+}
+
+.menu-image img {
+    width: 111vh;
+    height: 80vh;
+    margin: 81px 0px 0px 0px;
+}
+
+.animate {
+    width: 75vh;
+    height: 58vh;
+    animation: rotation 6s ease infinite;
+    transform-origin: center;
+
+}
+
+.animate img {
+    width: 36vw;
+    height: 48vh;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

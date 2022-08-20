@@ -1,0 +1,81 @@
+@media screen and (Max-width:900px) {
+    
+    header{
+        height: 14vh;
+    }
+    .icon{
+        flex-direction: column;
+    }
+    .icon img{
+        height: 22px;
+    }
+    .searchbar{
+        width: 95vw;
+    }
+    .searchbar input{
+        font-size: 13px;
+        width: 86vw;
+    }
+    
+    
+    
+    #image_slider {
+        width: 93vw;
+        height: 63vh;
+        margin: 50px auto;
+        border-radius: 11px;
+    }
+
+    #servises-container {
+        top: 5vh;
+    }
+
+    .slider h1 {
+        font-family: 'Albert Sans', sans-serif;
+        font-size: 25px;
+
+    }
+
+    .peragraph {
+        font-family: 'Albert Sans', sans-serif;
+        margin: 1px 0px 18px 5px;
+        font-size: 12px;
+    }
+
+    .box {
+        flex-direction: column;
+        margin: 94px 16px;
+        height: 160vh;
+        width: 49vh;
+        overflow: hidden;
+    }
+
+    .services img {
+        height: 25vh;
+        width: 80vw;
+        margin: 7px 0px 0px -50px;
+    }
+
+    .services {
+        width: 54vw;
+        height: 45vh;
+    }
+
+    .services h2 {
+        font-size: 20px;
+
+    }
+
+    .services h3 {
+        font-size: 13px;
+        margin: 8px 0px 0px 49px
+    }
+    footer{
+        height: 121vh;
+    }
+
+
+
+
+
+}
